@@ -4,7 +4,8 @@
   "description": "DigiMarket JA is a curated online marketplace designed specifically for the Jamaican market. DigiMarket JA takes a white-glove, B2B onboarding approach by actively recruiting established local businesses and equipping them with the digital tools they need to succeed.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -23,4 +24,6 @@
   "devDependencies": {
     "nodemon": "^3.1.14"
   }
+
+  
 }
