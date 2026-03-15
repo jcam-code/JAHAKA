@@ -11,6 +11,6 @@ router.post("/", businessController.createBusiness);
 
 router.put("/:id ", businessController.updateBusiness);
 
-router.delete("/:id", businessController.delteBusines);
+router.delete("/:id", businessController.deleteBusines);
 
 module.exports = router;
