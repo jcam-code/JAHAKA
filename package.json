@@ -1,0 +1,29 @@
+{
+  "name": "jahaka",
+  "version": "1.0.0",
+  "description": "DigiMarket JA is a curated online marketplace designed specifically for the Jamaican market. DigiMarket JA takes a white-glove, B2B onboarding approach by actively recruiting established local businesses and equipping them with the digital tools they need to succeed.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcam-code/JAHAKA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcam-code/JAHAKA/issues"
+  },
+  "homepage": "https://github.com/jcam-code/JAHAKA#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

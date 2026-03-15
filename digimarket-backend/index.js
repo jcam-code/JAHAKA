@@ -4,20 +4,20 @@ const PORT = 3000;
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-    res.json({ message: "Welcome to the DigiMarket API!" });
+app.get('/', (request, response) => {
+    response.json({ message: "Welcome to the DigiMarket API!" });
 });
 
 //test endpoint for business
 let businesses = [];
-app.post('/businesses', (req, res) => {
-    const business = req.body;
+app.post('/businesses', (request, response) => {
+    const business = request.body;
     businesses.push(business);
-    res.json({ message: "Business added successfully!", data: business });
+    response.json({ message: "Business added successfully!", data: business });
 });
 
-app.get('/businesses', (req, res) => {
-    res.json({ data: businesses });
+app.get('/businesses', (request, response) => {
+    response.json({ data: businesses });
 }); 
 
 app.listen(PORT, () => {
